@@ -11,6 +11,19 @@ function NavBar() {
           <Link href="/about">About</Link>
         </li>
       </ul>
+      <style jsx>{`
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        li {
+          display: inline;
+          margin-left: 0.75rem;
+        }
+        li:not(:first-child) {
+          margin-left: 0.75rem;
+        } 
+      `} </style>
     </nav>
   )
 }
