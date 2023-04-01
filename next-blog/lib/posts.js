@@ -1,9 +1,18 @@
-import { readFile } from 'fs/promises';
-import { marked } from 'marked';
+import { readFile } from 'fs/promises'
+import matter from 'gray-matter'
+import { marked } from 'marked'
 
 export async function getPost(slug) {
-  const source = await readFile(`content/posts/${slug}.md`, 'utf-8');
-  const html = marked(source);
+  const source = await readFile(`content/posts/${slug}.md`, 'utf-8')
+  const {
+    data: { date, title },
+    content,
+  } = matter(source)
+  const body = marked(content)
 
-  return { body: html };
+  return {
+    date,
+    title,
+    body,
+  }
 }
