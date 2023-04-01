@@ -1,30 +1,31 @@
-import Head from 'next/head';
+import { readFile } from 'fs/promises'
+import Head from 'next/head'
 
 export async function getStaticProps() {
-  console.log('[FirstPostPage] getStaticProps');
+  console.log('[FirstPostPage] getStaticProps')
+
+  const data = await readFile('content/posts/first-post.json', 'utf-8')
+  const post = JSON.parse(data)
+
   return {
-    props: {
-      post: {
-        title: 'First Post',
-        body: 'My first post, as static props.',
-      }
-    },
-  };
+    props: { post },
+  }
 }
 
 function FirstPostPage({ post }) {
-  console.log('[FirstPostPage] render', post);
+  console.log('[FirstPostPage] render', post)
+
   return (
     <>
       <Head>
-        <title>{post.title} - My blog</title>
+        <title>{`${post.title} - My blog`}</title>
       </Head>
       <main>
         <h1>{post.title}</h1>
         <p>{post.body}</p>
       </main>
     </>
-  );
+  )
 }
 
-export default FirstPostPage;
+export default FirstPostPage
