@@ -1,5 +1,5 @@
-import Head from 'next/head';
-import Title from '../components/Title';
+import Head from 'next/head'
+import Title from '../components/Title'
 
 function HomePage() {
   return (
@@ -9,12 +9,10 @@ function HomePage() {
       </Head>
       <main className="px-6 py-4">
         <Title>Next Shop</Title>
-        <p>
-          [TODO: display products]
-        </p>
+        <p>[TODO: display products]</p>
       </main>
     </>
-  );
-};
+  )
+}
 
-export default HomePage;
+export default HomePage
