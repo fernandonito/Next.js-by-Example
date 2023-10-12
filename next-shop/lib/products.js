@@ -1,6 +1,6 @@
 import { fetchJson } from './api'
 
-const CMS_URL = 'http://localhost:1337'
+const { CMS_URL } = process.env
 
 function stripProduct(product) {
   const { id, title, description } = product
