@@ -8,7 +8,7 @@ export async function getStaticPaths() {
     paths: products.map((product) => ({
       params: { id: product.id.toString() },
     })),
-    fallback: false,
+    fallback: 'blocking',
   }
 }
 
@@ -18,6 +18,7 @@ export async function getStaticProps({ params: { id } }) {
     props: {
       product,
     },
+    revalidate: 30, //seconds
   }
 }
 
