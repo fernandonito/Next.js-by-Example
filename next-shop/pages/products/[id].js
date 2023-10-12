@@ -13,12 +13,18 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params: { id } }) {
-  const product = await getProduct(id)
-  return {
-    props: {
-      product,
-    },
-    revalidate: 30, //seconds
+  try {
+    const product = await getProduct(id)
+    return {
+      props: {
+        product,
+      },
+      revalidate: 30, //seconds
+    }
+  } catch (err) {
+    return {
+      notFound: true,
+    }
   }
 }
 
