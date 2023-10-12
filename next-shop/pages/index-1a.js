@@ -3,12 +3,6 @@ import Head from 'next/head'
 import Title from '../components/Title'
 import { getProducts } from '@/lib/products'
 
-const products = [
-  { id: 1, name: 'First Product' },
-  { id: 2, name: 'Second Product' },
-  { id: 3, name: 'Third Product' },
-]
-
 export async function getStaticProps() {
   console.log('[HomePage] getStaticProps')
   const products = await getProducts()
