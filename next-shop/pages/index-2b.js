@@ -1,17 +1,17 @@
-//Option 2: fetch products on the client side (in useEffect)
+//Option 2a: fetch products on the client side (in useEffect)
+//from an internal API route
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import Title from '../components/Title'
-import { getProducts } from '@/lib/products'
 
 function HomePage() {
   const [products, setProducts] = useState([])
   useEffect(() => {
-    getProducts().then(setProducts)
-    // same as:
-    // getProducts().then(products => {    
-    //   setProducts(products)
-    // })
+    (async () => {
+      const response = await fetch('/api/products')
+      const products = await response.json()
+      setProducts(products)
+    })()
   }, [])
 
   console.log('[HomePage] render:', products)
