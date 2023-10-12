@@ -1,13 +1,19 @@
 import Head from 'next/head'
 import Title from '../components/Title'
+import { getProducts } from '@/lib/products'
 
-const products = [
-  { id: 1, name: 'First Product' },
-  { id: 2, name: 'Second Product' },
-  { id: 3, name: 'Third Product' },
-]
+export async function getStaticProps() {
+  console.log('[HomePage] getStaticProps')
+  const products = await getProducts()
+  return {
+    props: {
+      products,
+    },
+    revalidate: 5 * 60, //seconds
+  }
+}
 
-function HomePage() {
+function HomePage({ products }) {
   console.log('[HomePage] render:', products)
   return (
     <>
@@ -18,7 +24,7 @@ function HomePage() {
         <Title>Next Shop</Title>
         <ul>
           {products.map(product => (
-            <li key={product.id}>{product.name}</li>
+            <li key={product.id}>{product.title}</li>
           ))}
         </ul>
       </main>
