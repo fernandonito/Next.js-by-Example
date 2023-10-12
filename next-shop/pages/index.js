@@ -10,7 +10,7 @@ export async function getStaticProps() {
     props: {
       products,
     },
-    revalidate: 5 * 60, //seconds
+    revalidate: 30, //seconds
   }
 }
 
@@ -24,11 +24,9 @@ function HomePage({ products }) {
       <main className="px-6 py-4">
         <Title>Next Shop</Title>
         <ul>
-          {products.map(product => (
+          {products.map((product) => (
             <li key={product.id}>
-              <Link href={`/products/${product.id}`}>
-                {product.title}
-              </Link>
+              <Link href={`/products/${product.id}`}>{product.title}</Link>
             </li>
           ))}
         </ul>

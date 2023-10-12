@@ -18,10 +18,12 @@ export async function getStaticProps({ params: { id } }) {
     props: {
       product,
     },
+    revalidate: 30, //seconds
   }
 }
 
 function ProductPage({ product }) {
+  console.log('[ProductPage] render:', product)
   return (
     <>
       <Head>
