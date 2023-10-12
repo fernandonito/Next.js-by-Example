@@ -1,19 +1,18 @@
+import { fetchJson } from './api'
+
+const CMS_URL = 'http://localhost:1337'
+
 function stripProduct(product) {
   const { id, title, description } = product
   return { id, title, description }
 }
 
 export async function getProduct(id) {
-  const response = await fetch(`http://localhost:1337/products/${id}`)
-  if (!response.ok) {
-    throw new Error(`request failed with status ${response.status}`)
-  }
-  const product = await response.json()
+  const product = await fetchJson(`${CMS_URL}/products/${id}`)
   return stripProduct(product)
 }
 
 export async function getProducts() {
-  const response = await fetch('http://localhost:1337/products')
-  const products = await response.json()
+  const products = await fetchJson(`${CMS_URL}/products`)
   return products.map(stripProduct)
 }
