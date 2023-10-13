@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Title from '../components/Title'
+import Title from '@/components/Title'
+import ProductCard from '@/components/ProductCard'
 import { getProducts } from '@/lib/products'
 
 export async function getStaticProps() {
@@ -26,7 +26,7 @@ function HomePage({ products }) {
         <ul>
           {products.map((product) => (
             <li key={product.id}>
-              <Link href={`/products/${product.id}`}>{product.title}</Link>
+              <ProductCard product={product} />
             </li>
           ))}
         </ul>
