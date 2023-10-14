@@ -3,8 +3,14 @@ import { fetchJson } from './api'
 const { CMS_URL } = process.env
 
 function stripProduct(product) {
-  const { id, title, description, price } = product
-  return { id, title, description, price }
+  const { id, title, description, price, picture } = product
+  return {
+    id,
+    title,
+    description,
+    price,
+    pictureUrl: `${CMS_URL}${picture.url}`,
+  }
 }
 
 export async function getProduct(id) {
