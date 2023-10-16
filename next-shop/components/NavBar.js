@@ -16,6 +16,11 @@ function NavBar() {
     })()
   }, [])
 
+  const handleSignOut = async () => {
+    await fetchJson('/api/logout')
+    setUser(null)
+  }
+
   console.log('user:', user)
 
   return (
@@ -29,7 +34,7 @@ function NavBar() {
           <>
             <li>{user.name}</li>
             <li>
-              <button>Sign Out</button>
+              <button onClick={handleSignOut}>Sign Out</button>
             </li>
           </>
         ) : (

@@ -18,7 +18,7 @@ async function handleLogin(req, res) {
       .status(200)
       .setHeader(
         'Set-Cookie',
-        cookie.serialize('token', jwt, {
+        cookie.serialize('jwt', jwt, {
           path: '/api',
           httpOnly: true,
         })

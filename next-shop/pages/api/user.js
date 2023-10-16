@@ -3,7 +3,7 @@ import { fetchJson } from '@/lib/api'
 const { CMS_URL } = process.env
 
 async function handleUser(req, res) {
-  const { token: jwt } = req.cookies
+  const { jwt } = req.cookies
   if (!jwt) {
     res.status(401).end()
     return
