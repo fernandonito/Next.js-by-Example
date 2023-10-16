@@ -1,24 +1,27 @@
-import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { fetchJson } from '@/lib/api'
+import { useQuery } from 'react-query'
 
 function NavBar() {
-  const [user, setUser] = useState()
-
-  useEffect(() => {
-    ;(async () => {
+  const query = useQuery(
+    'user',
+    async () => {
       try {
-        const user = await fetchJson('/api/user')
-        setUser(user)
+        return await fetchJson('/api/user')
       } catch (err) {
-        setUser(null)
+        return undefined
       }
-    })()
-  }, [])
+    },
+    {
+      cacheTime: Infinity,
+      staleTime: 30_000,
+    }
+  )
+  const user = query.data
 
   const handleSignOut = async () => {
     await fetchJson('/api/logout')
-    setUser(null)
+    //setUser(null)
   }
 
   console.log('user:', user)
