@@ -1,23 +1,9 @@
 import Link from 'next/link'
 import { fetchJson } from '@/lib/api'
-import { useQuery } from 'react-query'
+import { useUser } from '@/hooks/user'
 
 function NavBar() {
-  const query = useQuery(
-    'user',
-    async () => {
-      try {
-        return await fetchJson('/api/user')
-      } catch (err) {
-        return undefined
-      }
-    },
-    {
-      cacheTime: Infinity,
-      staleTime: 30_000,
-    }
-  )
-  const user = query.data
+  const user = useUser()
 
   const handleSignOut = async () => {
     await fetchJson('/api/logout')
