@@ -22,7 +22,7 @@ async function handleCart(req, res) {
     return
   }
   try {
-    const cartItems = await fetchJson(`${CMS_URL}/cart`, {
+    const cartItems = await fetchJson(`${CMS_URL}/cart-items`, {
       headers: { Authorization: `Bearer ${jwt}` },
     })
     res.status(200).json(cartItems.map(stripCartItem))
