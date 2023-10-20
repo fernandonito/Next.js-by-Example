@@ -1,6 +1,7 @@
 import { useQuery } from 'react-query'
 import Page from '@/components/Page'
 import { fetchJson } from '@/lib/api'
+import CartTable from '@/components/CartTable'
 
 function CartPage() {
   const query = useQuery('cartItems', () => fetchJson('/api/cart'))
@@ -9,7 +10,7 @@ function CartPage() {
   console.log('[CartPage] cartItems:', cartItems)
   return (
     <Page title="Cart">
-      <div>hello</div>
+      {cartItems && <CartTable cartItems={cartItems} />}
     </Page>
   )
 }
