@@ -1,5 +1,5 @@
 ---
-title: Stardew Valley
+title: 'Stardew Valley'
 date: '2023-05-04'
 image: '/images/stardew-valley.jpg'
 ---
