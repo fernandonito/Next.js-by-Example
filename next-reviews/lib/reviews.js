@@ -14,9 +14,13 @@ export async function getReview(slug) {
 }
 
 export async function getReviews() {
-  const files = await readdir('./content/reviews')
-  const slugs = files.map((filename) => filename.replace('.md', ''))
+  const slugs = await getSlugs()
 
   const reviews = await Promise.all(slugs.map(getReview))
   return reviews
+}
+
+export async function getSlugs() {
+  const files = await readdir('./content/reviews')
+  return files.map((filename) => filename.replace('.md', ''))
 }
