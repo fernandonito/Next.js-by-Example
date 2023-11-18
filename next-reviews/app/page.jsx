@@ -1,7 +1,9 @@
 import Link from 'next/link'
 import Heading from '@/components/Heading'
+import { getFeaturedReview } from '@/lib/reviews'
 
-export default function HomePage() {
+export default async function HomePage() {
+  const review = await getFeaturedReview()
   console.log('[HomePage] rendering')
   return (
     <>
@@ -9,18 +11,18 @@ export default function HomePage() {
       <p className="pb-3">Only the best indie games, reviewed for you</p>
       <div className="bg-white border rounded shadow w-80 hover:shadow-xl sm:w-full">
         <Link
-          href="/reviews/stardew-valley"
+          href={`/reviews/${review.slug}`}
           className="flex flex-col sm:flex-row"
         >
           <img
-            src="/images/stardew-valley.jpg"
-            alt="Stardew Valley"
+            src={review.image}
+            alt={review.title}
             width="320"
             height="180"
             className="rounded-t sm:rounded-l sm:rounded-r-none"
           />
           <h2 className="font-semibold font-orbitron py-1 text-center sm:px-2">
-            Stardew Valley
+            {review.title}
           </h2>
         </Link>
       </div>
