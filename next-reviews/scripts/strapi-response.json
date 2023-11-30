@@ -9,7 +9,75 @@
         "createdAt": "2023-05-16T11:00:00.000Z",
         "updatedAt": "2023-05-16T11:00:00.000Z",
         "publishedAt": "2023-05-16T11:00:00.000Z",
-        "subtitle": "A Sublime Journey Through an Enigmatic World"
+        "subtitle": "A Sublime Journey Through an Enigmatic World",
+        "image": {
+          "data": {
+            "id": 1,
+            "attributes": {
+              "name": "hollow-knight.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_hollow-knight.jpg",
+                  "hash": "thumbnail_hollow_knight_da5257a59c",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.38,
+                  "url": "/uploads/thumbnail_hollow_knight_da5257a59c.jpg"
+                },
+                "large": {
+                  "name": "large_hollow-knight.jpg",
+                  "hash": "large_hollow_knight_da5257a59c",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 48.51,
+                  "url": "/uploads/large_hollow_knight_da5257a59c.jpg"
+                },
+                "medium": {
+                  "name": "medium_hollow-knight.jpg",
+                  "hash": "medium_hollow_knight_da5257a59c",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 32.04,
+                  "url": "/uploads/medium_hollow_knight_da5257a59c.jpg"
+                },
+                "small": {
+                  "name": "small_hollow-knight.jpg",
+                  "hash": "small_hollow_knight_da5257a59c",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 17.87,
+                  "url": "/uploads/small_hollow_knight_da5257a59c.jpg"
+                }
+              },
+              "hash": "hollow_knight_da5257a59c",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 65.83,
+              "url": "/uploads/hollow_knight_da5257a59c.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:36.158Z",
+              "updatedAt": "2023-05-23T10:20:36.158Z"
+            }
+          }
+        }
       }
     },
     {
@@ -21,7 +89,75 @@
         "createdAt": "2023-05-09T11:00:00.000Z",
         "updatedAt": "2023-05-09T11:00:00.000Z",
         "publishedAt": "2023-05-09T11:00:00.000Z",
-        "subtitle": "A Tranquil Oasis of Farming and Adventure"
+        "subtitle": "A Tranquil Oasis of Farming and Adventure",
+        "image": {
+          "data": {
+            "id": 2,
+            "attributes": {
+              "name": "stardew-valley.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_stardew-valley.jpg",
+                  "hash": "thumbnail_stardew_valley_a268200e49",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 7.83,
+                  "url": "/uploads/thumbnail_stardew_valley_a268200e49.jpg"
+                },
+                "medium": {
+                  "name": "medium_stardew-valley.jpg",
+                  "hash": "medium_stardew_valley_a268200e49",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 57.81,
+                  "url": "/uploads/medium_stardew_valley_a268200e49.jpg"
+                },
+                "small": {
+                  "name": "small_stardew-valley.jpg",
+                  "hash": "small_stardew_valley_a268200e49",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 28.47,
+                  "url": "/uploads/small_stardew_valley_a268200e49.jpg"
+                },
+                "large": {
+                  "name": "large_stardew-valley.jpg",
+                  "hash": "large_stardew_valley_a268200e49",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 95.54,
+                  "url": "/uploads/large_stardew_valley_a268200e49.jpg"
+                }
+              },
+              "hash": "stardew_valley_a268200e49",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 144.47,
+              "url": "/uploads/stardew_valley_a268200e49.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:37.029Z",
+              "updatedAt": "2023-05-23T10:20:37.029Z"
+            }
+          }
+        }
       }
     },
     {
@@ -33,7 +169,75 @@
         "createdAt": "2023-05-18T11:00:00.000Z",
         "updatedAt": "2023-05-18T11:00:00.000Z",
         "publishedAt": "2023-05-18T11:00:00.000Z",
-        "subtitle": "A Hauntingly Captivating Journey"
+        "subtitle": "A Hauntingly Captivating Journey",
+        "image": {
+          "data": {
+            "id": 3,
+            "attributes": {
+              "name": "hellblade-senuas-sacrifice.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_hellblade-senuas-sacrifice.jpg",
+                  "hash": "thumbnail_hellblade_senuas_sacrifice_56b4c7ac75",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 7.67,
+                  "url": "/uploads/thumbnail_hellblade_senuas_sacrifice_56b4c7ac75.jpg"
+                },
+                "medium": {
+                  "name": "medium_hellblade-senuas-sacrifice.jpg",
+                  "hash": "medium_hellblade_senuas_sacrifice_56b4c7ac75",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 62.26,
+                  "url": "/uploads/medium_hellblade_senuas_sacrifice_56b4c7ac75.jpg"
+                },
+                "small": {
+                  "name": "small_hellblade-senuas-sacrifice.jpg",
+                  "hash": "small_hellblade_senuas_sacrifice_56b4c7ac75",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 29.54,
+                  "url": "/uploads/small_hellblade_senuas_sacrifice_56b4c7ac75.jpg"
+                },
+                "large": {
+                  "name": "large_hellblade-senuas-sacrifice.jpg",
+                  "hash": "large_hellblade_senuas_sacrifice_56b4c7ac75",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 103.98,
+                  "url": "/uploads/large_hellblade_senuas_sacrifice_56b4c7ac75.jpg"
+                }
+              },
+              "hash": "hellblade_senuas_sacrifice_56b4c7ac75",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 157.89,
+              "url": "/uploads/hellblade_senuas_sacrifice_56b4c7ac75.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:37.825Z",
+              "updatedAt": "2023-05-23T10:20:37.825Z"
+            }
+          }
+        }
       }
     },
     {
@@ -45,7 +249,75 @@
         "createdAt": "2023-05-11T11:00:00.000Z",
         "updatedAt": "2023-05-11T11:00:00.000Z",
         "publishedAt": "2023-05-11T11:00:00.000Z",
-        "subtitle": "Survive Together or Perish Alone"
+        "subtitle": "Survive Together or Perish Alone",
+        "image": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "dont-starve-together.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_dont-starve-together.jpg",
+                  "hash": "thumbnail_dont_starve_together_11e6d2baed",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 8.19,
+                  "url": "/uploads/thumbnail_dont_starve_together_11e6d2baed.jpg"
+                },
+                "medium": {
+                  "name": "medium_dont-starve-together.jpg",
+                  "hash": "medium_dont_starve_together_11e6d2baed",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 62.49,
+                  "url": "/uploads/medium_dont_starve_together_11e6d2baed.jpg"
+                },
+                "small": {
+                  "name": "small_dont-starve-together.jpg",
+                  "hash": "small_dont_starve_together_11e6d2baed",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 30.44,
+                  "url": "/uploads/small_dont_starve_together_11e6d2baed.jpg"
+                },
+                "large": {
+                  "name": "large_dont-starve-together.jpg",
+                  "hash": "large_dont_starve_together_11e6d2baed",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 102.52,
+                  "url": "/uploads/large_dont_starve_together_11e6d2baed.jpg"
+                }
+              },
+              "hash": "dont_starve_together_11e6d2baed",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 153.2,
+              "url": "/uploads/dont_starve_together_11e6d2baed.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:38.700Z",
+              "updatedAt": "2023-05-23T10:20:38.700Z"
+            }
+          }
+        }
       }
     },
     {
@@ -57,7 +329,75 @@
         "createdAt": "2023-05-27T11:00:00.000Z",
         "updatedAt": "2023-05-27T11:00:00.000Z",
         "publishedAt": "2023-05-27T11:00:00.000Z",
-        "subtitle": "A Whimsical Party Game for Endless Fun"
+        "subtitle": "A Whimsical Party Game for Endless Fun",
+        "image": {
+          "data": {
+            "id": 5,
+            "attributes": {
+              "name": "fall-guys.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_fall-guys.jpg",
+                  "hash": "thumbnail_fall_guys_9f9b386677",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 9.71,
+                  "url": "/uploads/thumbnail_fall_guys_9f9b386677.jpg"
+                },
+                "medium": {
+                  "name": "medium_fall-guys.jpg",
+                  "hash": "medium_fall_guys_9f9b386677",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 51.04,
+                  "url": "/uploads/medium_fall_guys_9f9b386677.jpg"
+                },
+                "small": {
+                  "name": "small_fall-guys.jpg",
+                  "hash": "small_fall_guys_9f9b386677",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 28.14,
+                  "url": "/uploads/small_fall_guys_9f9b386677.jpg"
+                },
+                "large": {
+                  "name": "large_fall-guys.jpg",
+                  "hash": "large_fall_guys_9f9b386677",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 78.57,
+                  "url": "/uploads/large_fall_guys_9f9b386677.jpg"
+                }
+              },
+              "hash": "fall_guys_9f9b386677",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 107.85,
+              "url": "/uploads/fall_guys_9f9b386677.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:39.486Z",
+              "updatedAt": "2023-05-23T10:20:39.486Z"
+            }
+          }
+        }
       }
     },
     {
@@ -69,7 +409,75 @@
         "createdAt": "2023-05-12T11:00:00.000Z",
         "updatedAt": "2023-05-12T11:00:00.000Z",
         "publishedAt": "2023-05-12T11:00:00.000Z",
-        "subtitle": "Dive Into the Enigmatic Abyss"
+        "subtitle": "Dive Into the Enigmatic Abyss",
+        "image": {
+          "data": {
+            "id": 6,
+            "attributes": {
+              "name": "inside.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_inside.jpg",
+                  "hash": "thumbnail_inside_edd39ca199",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 3.04,
+                  "url": "/uploads/thumbnail_inside_edd39ca199.jpg"
+                },
+                "large": {
+                  "name": "large_inside.jpg",
+                  "hash": "large_inside_edd39ca199",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 23.41,
+                  "url": "/uploads/large_inside_edd39ca199.jpg"
+                },
+                "medium": {
+                  "name": "medium_inside.jpg",
+                  "hash": "medium_inside_edd39ca199",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 15.31,
+                  "url": "/uploads/medium_inside_edd39ca199.jpg"
+                },
+                "small": {
+                  "name": "small_inside.jpg",
+                  "hash": "small_inside_edd39ca199",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 8.43,
+                  "url": "/uploads/small_inside_edd39ca199.jpg"
+                }
+              },
+              "hash": "inside_edd39ca199",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 32.38,
+              "url": "/uploads/inside_edd39ca199.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:40.237Z",
+              "updatedAt": "2023-05-23T10:20:40.237Z"
+            }
+          }
+        }
       }
     },
     {
@@ -81,7 +489,75 @@
         "createdAt": "2023-05-06T11:00:00.000Z",
         "updatedAt": "2023-05-06T11:00:00.000Z",
         "publishedAt": "2023-05-06T11:00:00.000Z",
-        "subtitle": "A Captivating Journey through Solitude and Mystery"
+        "subtitle": "A Captivating Journey through Solitude and Mystery",
+        "image": {
+          "data": {
+            "id": 7,
+            "attributes": {
+              "name": "firewatch.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_firewatch.jpg",
+                  "hash": "thumbnail_firewatch_16858eafba",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 4.51,
+                  "url": "/uploads/thumbnail_firewatch_16858eafba.jpg"
+                },
+                "large": {
+                  "name": "large_firewatch.jpg",
+                  "hash": "large_firewatch_16858eafba",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 34.22,
+                  "url": "/uploads/large_firewatch_16858eafba.jpg"
+                },
+                "small": {
+                  "name": "small_firewatch.jpg",
+                  "hash": "small_firewatch_16858eafba",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 12.73,
+                  "url": "/uploads/small_firewatch_16858eafba.jpg"
+                },
+                "medium": {
+                  "name": "medium_firewatch.jpg",
+                  "hash": "medium_firewatch_16858eafba",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 22.45,
+                  "url": "/uploads/medium_firewatch_16858eafba.jpg"
+                }
+              },
+              "hash": "firewatch_16858eafba",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 48.13,
+              "url": "/uploads/firewatch_16858eafba.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:41.109Z",
+              "updatedAt": "2023-05-23T10:20:41.109Z"
+            }
+          }
+        }
       }
     },
     {
@@ -93,7 +569,75 @@
         "createdAt": "2023-05-28T11:00:00.000Z",
         "updatedAt": "2023-05-28T11:00:00.000Z",
         "publishedAt": "2023-05-28T11:00:00.000Z",
-        "subtitle": "A Rogue-Like Gem that Ascends to Greatness"
+        "subtitle": "A Rogue-Like Gem that Ascends to Greatness",
+        "image": {
+          "data": {
+            "id": 8,
+            "attributes": {
+              "name": "hades-2018.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_hades-2018.jpg",
+                  "hash": "thumbnail_hades_2018_bff8e28a82",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 8.75,
+                  "url": "/uploads/thumbnail_hades_2018_bff8e28a82.jpg"
+                },
+                "small": {
+                  "name": "small_hades-2018.jpg",
+                  "hash": "small_hades_2018_bff8e28a82",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 30.66,
+                  "url": "/uploads/small_hades_2018_bff8e28a82.jpg"
+                },
+                "medium": {
+                  "name": "medium_hades-2018.jpg",
+                  "hash": "medium_hades_2018_bff8e28a82",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 61.3,
+                  "url": "/uploads/medium_hades_2018_bff8e28a82.jpg"
+                },
+                "large": {
+                  "name": "large_hades-2018.jpg",
+                  "hash": "large_hades_2018_bff8e28a82",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 98.53,
+                  "url": "/uploads/large_hades_2018_bff8e28a82.jpg"
+                }
+              },
+              "hash": "hades_2018_bff8e28a82",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 145.68,
+              "url": "/uploads/hades_2018_bff8e28a82.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:41.921Z",
+              "updatedAt": "2023-05-23T10:20:41.921Z"
+            }
+          }
+        }
       }
     },
     {
@@ -105,7 +649,75 @@
         "createdAt": "2023-05-10T11:00:00.000Z",
         "updatedAt": "2023-05-10T11:00:00.000Z",
         "publishedAt": "2023-05-10T11:00:00.000Z",
-        "subtitle": "A Thrilling Battle Royale in the Prehistoric World"
+        "subtitle": "A Thrilling Battle Royale in the Prehistoric World",
+        "image": {
+          "data": {
+            "id": 9,
+            "attributes": {
+              "name": "ark-survival-of-the-fittest.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_ark-survival-of-the-fittest.jpg",
+                  "hash": "thumbnail_ark_survival_of_the_fittest_37eebfbd52",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 10.62,
+                  "url": "/uploads/thumbnail_ark_survival_of_the_fittest_37eebfbd52.jpg"
+                },
+                "small": {
+                  "name": "small_ark-survival-of-the-fittest.jpg",
+                  "hash": "small_ark_survival_of_the_fittest_37eebfbd52",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 38.21,
+                  "url": "/uploads/small_ark_survival_of_the_fittest_37eebfbd52.jpg"
+                },
+                "large": {
+                  "name": "large_ark-survival-of-the-fittest.jpg",
+                  "hash": "large_ark_survival_of_the_fittest_37eebfbd52",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 132.32,
+                  "url": "/uploads/large_ark_survival_of_the_fittest_37eebfbd52.jpg"
+                },
+                "medium": {
+                  "name": "medium_ark-survival-of-the-fittest.jpg",
+                  "hash": "medium_ark_survival_of_the_fittest_37eebfbd52",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 78.78,
+                  "url": "/uploads/medium_ark_survival_of_the_fittest_37eebfbd52.jpg"
+                }
+              },
+              "hash": "ark_survival_of_the_fittest_37eebfbd52",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 201.24,
+              "url": "/uploads/ark_survival_of_the_fittest_37eebfbd52.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:42.702Z",
+              "updatedAt": "2023-05-23T10:20:42.702Z"
+            }
+          }
+        }
       }
     },
     {
@@ -117,7 +729,75 @@
         "createdAt": "2023-05-22T11:00:00.000Z",
         "updatedAt": "2023-05-22T11:00:00.000Z",
         "publishedAt": "2023-05-22T11:00:00.000Z",
-        "subtitle": "A Stunning Co-op Action Experience"
+        "subtitle": "A Stunning Co-op Action Experience",
+        "image": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "warhammer-vermintide-2.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_warhammer-vermintide-2.jpg",
+                  "hash": "thumbnail_warhammer_vermintide_2_0634bcc7ee",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.25,
+                  "url": "/uploads/thumbnail_warhammer_vermintide_2_0634bcc7ee.jpg"
+                },
+                "small": {
+                  "name": "small_warhammer-vermintide-2.jpg",
+                  "hash": "small_warhammer_vermintide_2_0634bcc7ee",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 21.2,
+                  "url": "/uploads/small_warhammer_vermintide_2_0634bcc7ee.jpg"
+                },
+                "medium": {
+                  "name": "medium_warhammer-vermintide-2.jpg",
+                  "hash": "medium_warhammer_vermintide_2_0634bcc7ee",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 42.89,
+                  "url": "/uploads/medium_warhammer_vermintide_2_0634bcc7ee.jpg"
+                },
+                "large": {
+                  "name": "large_warhammer-vermintide-2.jpg",
+                  "hash": "large_warhammer_vermintide_2_0634bcc7ee",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 71.31,
+                  "url": "/uploads/large_warhammer_vermintide_2_0634bcc7ee.jpg"
+                }
+              },
+              "hash": "warhammer_vermintide_2_0634bcc7ee",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 108.44,
+              "url": "/uploads/warhammer_vermintide_2_0634bcc7ee.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:43.494Z",
+              "updatedAt": "2023-05-23T10:20:43.494Z"
+            }
+          }
+        }
       }
     },
     {
@@ -129,7 +809,75 @@
         "createdAt": "2023-05-19T11:00:00.000Z",
         "updatedAt": "2023-05-19T11:00:00.000Z",
         "publishedAt": "2023-05-19T11:00:00.000Z",
-        "subtitle": "A Challenging and Visually Stunning Ode to Classic Animation"
+        "subtitle": "A Challenging and Visually Stunning Ode to Classic Animation",
+        "image": {
+          "data": {
+            "id": 11,
+            "attributes": {
+              "name": "cuphead.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_cuphead.jpg",
+                  "hash": "thumbnail_cuphead_14fced8b9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.31,
+                  "url": "/uploads/thumbnail_cuphead_14fced8b9a.jpg"
+                },
+                "large": {
+                  "name": "large_cuphead.jpg",
+                  "hash": "large_cuphead_14fced8b9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 45.69,
+                  "url": "/uploads/large_cuphead_14fced8b9a.jpg"
+                },
+                "small": {
+                  "name": "small_cuphead.jpg",
+                  "hash": "small_cuphead_14fced8b9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 17.92,
+                  "url": "/uploads/small_cuphead_14fced8b9a.jpg"
+                },
+                "medium": {
+                  "name": "medium_cuphead.jpg",
+                  "hash": "medium_cuphead_14fced8b9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 30.91,
+                  "url": "/uploads/medium_cuphead_14fced8b9a.jpg"
+                }
+              },
+              "hash": "cuphead_14fced8b9a",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 61.81,
+              "url": "/uploads/cuphead_14fced8b9a.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:44.262Z",
+              "updatedAt": "2023-05-23T10:20:44.262Z"
+            }
+          }
+        }
       }
     },
     {
@@ -141,7 +889,75 @@
         "createdAt": "2023-05-07T11:00:00.000Z",
         "updatedAt": "2023-05-07T11:00:00.000Z",
         "publishedAt": "2023-05-07T11:00:00.000Z",
-        "subtitle": "An Enthralling Descent into Madness"
+        "subtitle": "An Enthralling Descent into Madness",
+        "image": {
+          "data": {
+            "id": 12,
+            "attributes": {
+              "name": "layers-of-fear.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_layers-of-fear.jpg",
+                  "hash": "thumbnail_layers_of_fear_5c71de35ec",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 5.45,
+                  "url": "/uploads/thumbnail_layers_of_fear_5c71de35ec.jpg"
+                },
+                "medium": {
+                  "name": "medium_layers-of-fear.jpg",
+                  "hash": "medium_layers_of_fear_5c71de35ec",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 44.45,
+                  "url": "/uploads/medium_layers_of_fear_5c71de35ec.jpg"
+                },
+                "small": {
+                  "name": "small_layers-of-fear.jpg",
+                  "hash": "small_layers_of_fear_5c71de35ec",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 20.09,
+                  "url": "/uploads/small_layers_of_fear_5c71de35ec.jpg"
+                },
+                "large": {
+                  "name": "large_layers-of-fear.jpg",
+                  "hash": "large_layers_of_fear_5c71de35ec",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 80.19,
+                  "url": "/uploads/large_layers_of_fear_5c71de35ec.jpg"
+                }
+              },
+              "hash": "layers_of_fear_5c71de35ec",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 126.87,
+              "url": "/uploads/layers_of_fear_5c71de35ec.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:45.000Z",
+              "updatedAt": "2023-05-23T10:20:45.000Z"
+            }
+          }
+        }
       }
     },
     {
@@ -153,7 +969,75 @@
         "createdAt": "2023-05-15T11:00:00.000Z",
         "updatedAt": "2023-05-15T11:00:00.000Z",
         "publishedAt": "2023-05-15T11:00:00.000Z",
-        "subtitle": "Exploring the Cosmos"
+        "subtitle": "Exploring the Cosmos",
+        "image": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "no-mans-sky.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_no-mans-sky.jpg",
+                  "hash": "thumbnail_no_mans_sky_9e1fd60de1",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.85,
+                  "url": "/uploads/thumbnail_no_mans_sky_9e1fd60de1.jpg"
+                },
+                "large": {
+                  "name": "large_no-mans-sky.jpg",
+                  "hash": "large_no_mans_sky_9e1fd60de1",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 65.38,
+                  "url": "/uploads/large_no_mans_sky_9e1fd60de1.jpg"
+                },
+                "small": {
+                  "name": "small_no-mans-sky.jpg",
+                  "hash": "small_no_mans_sky_9e1fd60de1",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 21.47,
+                  "url": "/uploads/small_no_mans_sky_9e1fd60de1.jpg"
+                },
+                "medium": {
+                  "name": "medium_no-mans-sky.jpg",
+                  "hash": "medium_no_mans_sky_9e1fd60de1",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 40.84,
+                  "url": "/uploads/medium_no_mans_sky_9e1fd60de1.jpg"
+                }
+              },
+              "hash": "no_mans_sky_9e1fd60de1",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 94.99,
+              "url": "/uploads/no_mans_sky_9e1fd60de1.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:45.801Z",
+              "updatedAt": "2023-05-23T10:20:45.801Z"
+            }
+          }
+        }
       }
     },
     {
@@ -165,7 +1049,75 @@
         "createdAt": "2023-05-25T11:00:00.000Z",
         "updatedAt": "2023-05-25T11:00:00.000Z",
         "publishedAt": "2023-05-25T11:00:00.000Z",
-        "subtitle": "A Mind-Bending Masterpiece of Narrative Brilliance"
+        "subtitle": "A Mind-Bending Masterpiece of Narrative Brilliance",
+        "image": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "disco-elysium.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_disco-elysium.jpg",
+                  "hash": "thumbnail_disco_elysium_897a229c9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 11.96,
+                  "url": "/uploads/thumbnail_disco_elysium_897a229c9a.jpg"
+                },
+                "small": {
+                  "name": "small_disco-elysium.jpg",
+                  "hash": "small_disco_elysium_897a229c9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 40.36,
+                  "url": "/uploads/small_disco_elysium_897a229c9a.jpg"
+                },
+                "large": {
+                  "name": "large_disco-elysium.jpg",
+                  "hash": "large_disco_elysium_897a229c9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 126.91,
+                  "url": "/uploads/large_disco_elysium_897a229c9a.jpg"
+                },
+                "medium": {
+                  "name": "medium_disco-elysium.jpg",
+                  "hash": "medium_disco_elysium_897a229c9a",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 79.13,
+                  "url": "/uploads/medium_disco_elysium_897a229c9a.jpg"
+                }
+              },
+              "hash": "disco_elysium_897a229c9a",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 182.57,
+              "url": "/uploads/disco_elysium_897a229c9a.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:46.585Z",
+              "updatedAt": "2023-05-23T10:20:46.585Z"
+            }
+          }
+        }
       }
     },
     {
@@ -177,7 +1129,75 @@
         "createdAt": "2023-05-24T11:00:00.000Z",
         "updatedAt": "2023-05-24T11:00:00.000Z",
         "publishedAt": "2023-05-24T11:00:00.000Z",
-        "subtitle": "An Electrifying Symphony of Rogue-like Action"
+        "subtitle": "An Electrifying Symphony of Rogue-like Action",
+        "image": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "dead-cells.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_dead-cells.jpg",
+                  "hash": "thumbnail_dead_cells_de459ea5a7",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 7.47,
+                  "url": "/uploads/thumbnail_dead_cells_de459ea5a7.jpg"
+                },
+                "small": {
+                  "name": "small_dead-cells.jpg",
+                  "hash": "small_dead_cells_de459ea5a7",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 23.23,
+                  "url": "/uploads/small_dead_cells_de459ea5a7.jpg"
+                },
+                "medium": {
+                  "name": "medium_dead-cells.jpg",
+                  "hash": "medium_dead_cells_de459ea5a7",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 42.91,
+                  "url": "/uploads/medium_dead_cells_de459ea5a7.jpg"
+                },
+                "large": {
+                  "name": "large_dead-cells.jpg",
+                  "hash": "large_dead_cells_de459ea5a7",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 67.04,
+                  "url": "/uploads/large_dead_cells_de459ea5a7.jpg"
+                }
+              },
+              "hash": "dead_cells_de459ea5a7",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 95.97,
+              "url": "/uploads/dead_cells_de459ea5a7.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:47.326Z",
+              "updatedAt": "2023-05-23T10:20:47.326Z"
+            }
+          }
+        }
       }
     },
     {
@@ -189,7 +1209,75 @@
         "createdAt": "2023-05-04T11:00:00.000Z",
         "updatedAt": "2023-05-04T11:00:00.000Z",
         "publishedAt": "2023-05-04T11:00:00.000Z",
-        "subtitle": "Delve into the Abyss of Madness"
+        "subtitle": "Delve into the Abyss of Madness",
+        "image": {
+          "data": {
+            "id": 16,
+            "attributes": {
+              "name": "darkest-dungeon.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_darkest-dungeon.jpg",
+                  "hash": "thumbnail_darkest_dungeon_342647bf23",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 8.88,
+                  "url": "/uploads/thumbnail_darkest_dungeon_342647bf23.jpg"
+                },
+                "small": {
+                  "name": "small_darkest-dungeon.jpg",
+                  "hash": "small_darkest_dungeon_342647bf23",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 30.24,
+                  "url": "/uploads/small_darkest_dungeon_342647bf23.jpg"
+                },
+                "medium": {
+                  "name": "medium_darkest-dungeon.jpg",
+                  "hash": "medium_darkest_dungeon_342647bf23",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 57.62,
+                  "url": "/uploads/medium_darkest_dungeon_342647bf23.jpg"
+                },
+                "large": {
+                  "name": "large_darkest-dungeon.jpg",
+                  "hash": "large_darkest_dungeon_342647bf23",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 89.98,
+                  "url": "/uploads/large_darkest_dungeon_342647bf23.jpg"
+                }
+              },
+              "hash": "darkest_dungeon_342647bf23",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 131.37,
+              "url": "/uploads/darkest_dungeon_342647bf23.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:48.164Z",
+              "updatedAt": "2023-05-23T10:20:48.164Z"
+            }
+          }
+        }
       }
     },
     {
@@ -201,7 +1289,75 @@
         "createdAt": "2023-05-20T11:00:00.000Z",
         "updatedAt": "2023-05-20T11:00:00.000Z",
         "publishedAt": "2023-05-20T11:00:00.000Z",
-        "subtitle": "An Oceanic Masterpiece That Plunges Players into an Immersive Underwater World"
+        "subtitle": "An Oceanic Masterpiece That Plunges Players into an Immersive Underwater World",
+        "image": {
+          "data": {
+            "id": 17,
+            "attributes": {
+              "name": "subnautica.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_subnautica.jpg",
+                  "hash": "thumbnail_subnautica_049e8332de",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 7.91,
+                  "url": "/uploads/thumbnail_subnautica_049e8332de.jpg"
+                },
+                "medium": {
+                  "name": "medium_subnautica.jpg",
+                  "hash": "medium_subnautica_049e8332de",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 44.13,
+                  "url": "/uploads/medium_subnautica_049e8332de.jpg"
+                },
+                "large": {
+                  "name": "large_subnautica.jpg",
+                  "hash": "large_subnautica_049e8332de",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 67.48,
+                  "url": "/uploads/large_subnautica_049e8332de.jpg"
+                },
+                "small": {
+                  "name": "small_subnautica.jpg",
+                  "hash": "small_subnautica_049e8332de",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 23.87,
+                  "url": "/uploads/small_subnautica_049e8332de.jpg"
+                }
+              },
+              "hash": "subnautica_049e8332de",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 96.26,
+              "url": "/uploads/subnautica_049e8332de.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:48.926Z",
+              "updatedAt": "2023-05-23T10:20:48.926Z"
+            }
+          }
+        }
       }
     },
     {
@@ -213,7 +1369,75 @@
         "createdAt": "2023-05-17T11:00:00.000Z",
         "updatedAt": "2023-05-17T11:00:00.000Z",
         "publishedAt": "2023-05-17T11:00:00.000Z",
-        "subtitle": "An Emotionally Captivating Masterpiece"
+        "subtitle": "An Emotionally Captivating Masterpiece",
+        "image": {
+          "data": {
+            "id": 18,
+            "attributes": {
+              "name": "what-remains-of-edith-finch.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_what-remains-of-edith-finch.jpg",
+                  "hash": "thumbnail_what_remains_of_edith_finch_b4f0be5dda",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.47,
+                  "url": "/uploads/thumbnail_what_remains_of_edith_finch_b4f0be5dda.jpg"
+                },
+                "medium": {
+                  "name": "medium_what-remains-of-edith-finch.jpg",
+                  "hash": "medium_what_remains_of_edith_finch_b4f0be5dda",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 47.23,
+                  "url": "/uploads/medium_what_remains_of_edith_finch_b4f0be5dda.jpg"
+                },
+                "small": {
+                  "name": "small_what-remains-of-edith-finch.jpg",
+                  "hash": "small_what_remains_of_edith_finch_b4f0be5dda",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 22.92,
+                  "url": "/uploads/small_what_remains_of_edith_finch_b4f0be5dda.jpg"
+                },
+                "large": {
+                  "name": "large_what-remains-of-edith-finch.jpg",
+                  "hash": "large_what_remains_of_edith_finch_b4f0be5dda",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 78.98,
+                  "url": "/uploads/large_what_remains_of_edith_finch_b4f0be5dda.jpg"
+                }
+              },
+              "hash": "what_remains_of_edith_finch_b4f0be5dda",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 120.36,
+              "url": "/uploads/what_remains_of_edith_finch_b4f0be5dda.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:49.762Z",
+              "updatedAt": "2023-05-23T10:20:49.762Z"
+            }
+          }
+        }
       }
     },
     {
@@ -225,7 +1449,75 @@
         "createdAt": "2023-05-05T11:00:00.000Z",
         "updatedAt": "2023-05-05T11:00:00.000Z",
         "publishedAt": "2023-05-05T11:00:00.000Z",
-        "subtitle": "A Mesmerizing Puzzle Adventure"
+        "subtitle": "A Mesmerizing Puzzle Adventure",
+        "image": {
+          "data": {
+            "id": 19,
+            "attributes": {
+              "name": "the-witness.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_the-witness.jpg",
+                  "hash": "thumbnail_the_witness_e0d8420e38",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 10.3,
+                  "url": "/uploads/thumbnail_the_witness_e0d8420e38.jpg"
+                },
+                "small": {
+                  "name": "small_the-witness.jpg",
+                  "hash": "small_the_witness_e0d8420e38",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 37.28,
+                  "url": "/uploads/small_the_witness_e0d8420e38.jpg"
+                },
+                "large": {
+                  "name": "large_the-witness.jpg",
+                  "hash": "large_the_witness_e0d8420e38",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 122.17,
+                  "url": "/uploads/large_the_witness_e0d8420e38.jpg"
+                },
+                "medium": {
+                  "name": "medium_the-witness.jpg",
+                  "hash": "medium_the_witness_e0d8420e38",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 74.89,
+                  "url": "/uploads/medium_the_witness_e0d8420e38.jpg"
+                }
+              },
+              "hash": "the_witness_e0d8420e38",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 185.35,
+              "url": "/uploads/the_witness_e0d8420e38.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:50.587Z",
+              "updatedAt": "2023-05-23T10:20:50.587Z"
+            }
+          }
+        }
       }
     },
     {
@@ -237,7 +1529,75 @@
         "createdAt": "2023-05-08T11:00:00.000Z",
         "updatedAt": "2023-05-08T11:00:00.000Z",
         "publishedAt": "2023-05-08T11:00:00.000Z",
-        "subtitle": "An Innovative and Immersive Time-Bending Thriller"
+        "subtitle": "An Innovative and Immersive Time-Bending Thriller",
+        "image": {
+          "data": {
+            "id": 20,
+            "attributes": {
+              "name": "superhot.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_superhot.jpg",
+                  "hash": "thumbnail_superhot_ee1bcf99b0",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 5.83,
+                  "url": "/uploads/thumbnail_superhot_ee1bcf99b0.jpg"
+                },
+                "large": {
+                  "name": "large_superhot.jpg",
+                  "hash": "large_superhot_ee1bcf99b0",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 43.14,
+                  "url": "/uploads/large_superhot_ee1bcf99b0.jpg"
+                },
+                "small": {
+                  "name": "small_superhot.jpg",
+                  "hash": "small_superhot_ee1bcf99b0",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 15.41,
+                  "url": "/uploads/small_superhot_ee1bcf99b0.jpg"
+                },
+                "medium": {
+                  "name": "medium_superhot.jpg",
+                  "hash": "medium_superhot_ee1bcf99b0",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 27.21,
+                  "url": "/uploads/medium_superhot_ee1bcf99b0.jpg"
+                }
+              },
+              "hash": "superhot_ee1bcf99b0",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 62.06,
+              "url": "/uploads/superhot_ee1bcf99b0.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:51.380Z",
+              "updatedAt": "2023-05-23T10:20:51.380Z"
+            }
+          }
+        }
       }
     },
     {
@@ -249,7 +1609,75 @@
         "createdAt": "2023-05-14T11:00:00.000Z",
         "updatedAt": "2023-05-14T11:00:00.000Z",
         "publishedAt": "2023-05-14T11:00:00.000Z",
-        "subtitle": "A Delightfully Chaotic Culinary Adventure"
+        "subtitle": "A Delightfully Chaotic Culinary Adventure",
+        "image": {
+          "data": {
+            "id": 21,
+            "attributes": {
+              "name": "overcooked.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_overcooked.jpg",
+                  "hash": "thumbnail_overcooked_440c5e7337",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 11.59,
+                  "url": "/uploads/thumbnail_overcooked_440c5e7337.jpg"
+                },
+                "small": {
+                  "name": "small_overcooked.jpg",
+                  "hash": "small_overcooked_440c5e7337",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 35.03,
+                  "url": "/uploads/small_overcooked_440c5e7337.jpg"
+                },
+                "medium": {
+                  "name": "medium_overcooked.jpg",
+                  "hash": "medium_overcooked_440c5e7337",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 63.24,
+                  "url": "/uploads/medium_overcooked_440c5e7337.jpg"
+                },
+                "large": {
+                  "name": "large_overcooked.jpg",
+                  "hash": "large_overcooked_440c5e7337",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 96.52,
+                  "url": "/uploads/large_overcooked_440c5e7337.jpg"
+                }
+              },
+              "hash": "overcooked_440c5e7337",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 136.69,
+              "url": "/uploads/overcooked_440c5e7337.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:52.182Z",
+              "updatedAt": "2023-05-23T10:20:52.182Z"
+            }
+          }
+        }
       }
     },
     {
@@ -261,7 +1689,75 @@
         "createdAt": "2023-05-23T11:00:00.000Z",
         "updatedAt": "2023-05-23T11:00:00.000Z",
         "publishedAt": "2023-05-23T11:00:00.000Z",
-        "subtitle": "A Riveting Co-op Adventure That Pushes Boundaries"
+        "subtitle": "A Riveting Co-op Adventure That Pushes Boundaries",
+        "image": {
+          "data": {
+            "id": 22,
+            "attributes": {
+              "name": "a-way-out-2018.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_a-way-out-2018.jpg",
+                  "hash": "thumbnail_a_way_out_2018_8efe22cb7f",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.14,
+                  "url": "/uploads/thumbnail_a_way_out_2018_8efe22cb7f.jpg"
+                },
+                "small": {
+                  "name": "small_a-way-out-2018.jpg",
+                  "hash": "small_a_way_out_2018_8efe22cb7f",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 21.28,
+                  "url": "/uploads/small_a_way_out_2018_8efe22cb7f.jpg"
+                },
+                "medium": {
+                  "name": "medium_a-way-out-2018.jpg",
+                  "hash": "medium_a_way_out_2018_8efe22cb7f",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 43.69,
+                  "url": "/uploads/medium_a_way_out_2018_8efe22cb7f.jpg"
+                },
+                "large": {
+                  "name": "large_a-way-out-2018.jpg",
+                  "hash": "large_a_way_out_2018_8efe22cb7f",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 72.8,
+                  "url": "/uploads/large_a_way_out_2018_8efe22cb7f.jpg"
+                }
+              },
+              "hash": "a_way_out_2018_8efe22cb7f",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 108.49,
+              "url": "/uploads/a_way_out_2018_8efe22cb7f.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:52.989Z",
+              "updatedAt": "2023-05-23T10:20:52.989Z"
+            }
+          }
+        }
       }
     },
     {
@@ -273,7 +1769,75 @@
         "createdAt": "2023-05-26T11:00:00.000Z",
         "updatedAt": "2023-05-26T11:00:00.000Z",
         "publishedAt": "2023-05-26T11:00:00.000Z",
-        "subtitle": "A Masterful Reimagining of a Gaming Classic"
+        "subtitle": "A Masterful Reimagining of a Gaming Classic",
+        "image": {
+          "data": {
+            "id": 23,
+            "attributes": {
+              "name": "black-mesa.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_black-mesa.jpg",
+                  "hash": "thumbnail_black_mesa_f27df07b74",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 6.46,
+                  "url": "/uploads/thumbnail_black_mesa_f27df07b74.jpg"
+                },
+                "large": {
+                  "name": "large_black-mesa.jpg",
+                  "hash": "large_black_mesa_f27df07b74",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 60.42,
+                  "url": "/uploads/large_black_mesa_f27df07b74.jpg"
+                },
+                "small": {
+                  "name": "small_black-mesa.jpg",
+                  "hash": "small_black_mesa_f27df07b74",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 20.44,
+                  "url": "/uploads/small_black_mesa_f27df07b74.jpg"
+                },
+                "medium": {
+                  "name": "medium_black-mesa.jpg",
+                  "hash": "medium_black_mesa_f27df07b74",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 38.64,
+                  "url": "/uploads/medium_black_mesa_f27df07b74.jpg"
+                }
+              },
+              "hash": "black_mesa_f27df07b74",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 86.29,
+              "url": "/uploads/black_mesa_f27df07b74.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:53.836Z",
+              "updatedAt": "2023-05-23T10:20:53.836Z"
+            }
+          }
+        }
       }
     },
     {
@@ -285,7 +1849,75 @@
         "createdAt": "2023-05-21T11:00:00.000Z",
         "updatedAt": "2023-05-21T11:00:00.000Z",
         "publishedAt": "2023-05-21T11:00:00.000Z",
-        "subtitle": "A Masterpiece of Platforming and Emotional Resilience"
+        "subtitle": "A Masterpiece of Platforming and Emotional Resilience",
+        "image": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "celeste.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_celeste.jpg",
+                  "hash": "thumbnail_celeste_3c79fbc678",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 11.19,
+                  "url": "/uploads/thumbnail_celeste_3c79fbc678.jpg"
+                },
+                "small": {
+                  "name": "small_celeste.jpg",
+                  "hash": "small_celeste_3c79fbc678",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 39.53,
+                  "url": "/uploads/small_celeste_3c79fbc678.jpg"
+                },
+                "large": {
+                  "name": "large_celeste.jpg",
+                  "hash": "large_celeste_3c79fbc678",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 122.35,
+                  "url": "/uploads/large_celeste_3c79fbc678.jpg"
+                },
+                "medium": {
+                  "name": "medium_celeste.jpg",
+                  "hash": "medium_celeste_3c79fbc678",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 77.15,
+                  "url": "/uploads/medium_celeste_3c79fbc678.jpg"
+                }
+              },
+              "hash": "celeste_3c79fbc678",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 179.53,
+              "url": "/uploads/celeste_3c79fbc678.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:54.720Z",
+              "updatedAt": "2023-05-23T10:20:54.720Z"
+            }
+          }
+        }
       }
     },
     {
@@ -297,7 +1929,75 @@
         "createdAt": "2023-05-13T11:00:00.000Z",
         "updatedAt": "2023-05-13T11:00:00.000Z",
         "publishedAt": "2023-05-13T11:00:00.000Z",
-        "subtitle": "A Hilarious and Charming Puzzle Platformer"
+        "subtitle": "A Hilarious and Charming Puzzle Platformer",
+        "image": {
+          "data": {
+            "id": 25,
+            "attributes": {
+              "name": "human-fall-flat.jpg",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1280,
+              "height": 720,
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_human-fall-flat.jpg",
+                  "hash": "thumbnail_human_fall_flat_c7e0c87e07",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 245,
+                  "height": 138,
+                  "size": 7.24,
+                  "url": "/uploads/thumbnail_human_fall_flat_c7e0c87e07.jpg"
+                },
+                "medium": {
+                  "name": "medium_human-fall-flat.jpg",
+                  "hash": "medium_human_fall_flat_c7e0c87e07",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 750,
+                  "height": 422,
+                  "size": 38.18,
+                  "url": "/uploads/medium_human_fall_flat_c7e0c87e07.jpg"
+                },
+                "small": {
+                  "name": "small_human-fall-flat.jpg",
+                  "hash": "small_human_fall_flat_c7e0c87e07",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 500,
+                  "height": 281,
+                  "size": 21.07,
+                  "url": "/uploads/small_human_fall_flat_c7e0c87e07.jpg"
+                },
+                "large": {
+                  "name": "large_human-fall-flat.jpg",
+                  "hash": "large_human_fall_flat_c7e0c87e07",
+                  "ext": ".jpg",
+                  "mime": "image/jpeg",
+                  "path": null,
+                  "width": 1000,
+                  "height": 563,
+                  "size": 59.33,
+                  "url": "/uploads/large_human_fall_flat_c7e0c87e07.jpg"
+                }
+              },
+              "hash": "human_fall_flat_c7e0c87e07",
+              "ext": ".jpg",
+              "mime": "image/jpeg",
+              "size": 85.87,
+              "url": "/uploads/human_fall_flat_c7e0c87e07.jpg",
+              "previewUrl": null,
+              "provider": "local",
+              "provider_metadata": null,
+              "createdAt": "2023-05-23T10:20:55.551Z",
+              "updatedAt": "2023-05-23T10:20:55.551Z"
+            }
+          }
+        }
       }
     }
   ],
