@@ -11,14 +11,32 @@ export async function getFeaturedReview() {
 }
 
 export async function getReview(slug) {
-  const text = await readFile(`./content/reviews/${slug}.md`, 'utf-8')
-  const {
-    content,
-    data: { title, date, image },
-  } = matter(text)
-  const body = marked(content)
+  const url =
+    `${CMS_URL}/api/reviews?` +
+    qs.stringify(
+      {
+        filters: { slug: { $eq: slug } },
+        fields: ['slug', 'title', 'subtitle', 'publishedAt', 'body'],
+        populate: { image: { fields: ['url'] } },
+        pagination: { pageSize: 1, withCount: false },
+      },
+      { encodeValuesOnly: true }
+    )
+  console.log('getReview: ', url)
 
-  return { slug, title, date, image, body }
+  const response = await fetch(url)
+  const { data } = await response.json()
+  const {
+    attributes: { title, publishedAt, image, body },
+  } = data[0]
+
+  return {
+    slug,
+    title,
+    data: publishedAt.slice(0, 'yyyy-mm-dd'.length),
+    image: CMS_URL + image.data.attributes.url,
+    body: marked(body),
+  }
 }
 
 export async function getReviews() {
