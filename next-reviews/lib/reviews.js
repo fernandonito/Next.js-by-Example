@@ -1,5 +1,3 @@
-import { readdir, readFile } from 'node:fs/promises'
-import matter from 'gray-matter'
 import { marked } from 'marked'
 import qs from 'qs'
 
@@ -37,15 +35,19 @@ export async function getReviews() {
 }
 
 export async function getSlugs() {
-  const files = await readdir('./content/reviews')
-  return files.map((filename) => filename.replace('.md', ''))
+  const { data } = await fetchReviews({
+    fields: ['slug'],
+    sort: ['publishedAt:desc'],
+    pagination: { pageSize: 100 },
+  })
+  return data.map(({ attributes: { slug } }) => slug)
 }
 
 async function fetchReviews(parameters) {
   const url =
     `${CMS_URL}/api/reviews?` +
     qs.stringify(parameters, { encodeValuesOnly: true })
-  console.log('[fetchReviews]: ', url)
+  // console.log('[fetchReviews]: ', url)
 
   const response = await fetch(url)
   if (!response.ok) {
