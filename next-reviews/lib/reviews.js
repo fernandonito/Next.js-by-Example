@@ -3,6 +3,8 @@ import matter from 'gray-matter'
 import { marked } from 'marked'
 import qs from 'qs'
 
+const CMS_URL = 'http://localhost:1337'
+
 export async function getFeaturedReview() {
   const reviews = await getReviews()
   return reviews[0]
@@ -20,13 +22,8 @@ export async function getReview(slug) {
 }
 
 export async function getReviews() {
-  // const slugs = await getSlugs()
-
-  // const reviews = await Promise.all(slugs.map(getReview))
-  // reviews.sort((a, b) => b.date.localeCompare(a.date))
-  // return reviews
   const url =
-    'http://localhost:1337/api/reviews?' +
+    `${CMS_URL}/api/reviews?` +
     qs.stringify(
       {
         fields: ['slug', 'title', 'subtitle', 'publishedAt'],
@@ -37,11 +34,15 @@ export async function getReviews() {
       { encodeValuesOnly: true }
     )
   console.log('getReviews: ', url)
+
   const response = await fetch(url)
   const { data } = await response.json()
-  return data.map(({ attributes: { slug, title } }) => ({
+
+  return data.map(({ attributes: { slug, title, publishedAt, image } }) => ({
     slug,
     title,
+    data: publishedAt.slice(0, 'yyyy-mm-dd'.length),
+    image: CMS_URL + image.data.attributes.url,
   }))
 }
 
