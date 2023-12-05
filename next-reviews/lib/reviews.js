@@ -52,10 +52,13 @@ async function fetchReviews(parameters) {
   return await response.json()
 }
 
-function toReview({ attributes: { slug, title, publishedAt, image } }) {
+function toReview({
+  attributes: { slug, title, subtitle, publishedAt, image },
+}) {
   return {
     slug,
     title,
+    subtitle,
     data: publishedAt.slice(0, 'yyyy-mm-dd'.length),
     image: CMS_URL + image.data.attributes.url,
   }
