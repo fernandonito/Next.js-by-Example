@@ -47,7 +47,7 @@ async function fetchReviews(parameters) {
     qs.stringify(parameters, { encodeValuesOnly: true })
   // console.log('[fetchReviews]: ', url)
 
-  const response = await fetch(url)
+  const response = await fetch(url, { next: { revalidate: 30 } })
   if (!response.ok) {
     throw new Error(`CMS returned ${response.status} for ${url}`)
   }
