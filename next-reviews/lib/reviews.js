@@ -1,6 +1,8 @@
 import { marked } from 'marked'
 import qs from 'qs'
 
+export const CACHE_TAG_REVIEWS = 'reviews'
+
 const CMS_URL = 'http://localhost:1337'
 
 export async function getReview(slug) {
@@ -47,7 +49,7 @@ async function fetchReviews(parameters) {
     qs.stringify(parameters, { encodeValuesOnly: true })
   // console.log('[fetchReviews]: ', url)
 
-  const response = await fetch(url, { next: { revalidate: 30 } })
+  const response = await fetch(url, { next: { tags: [CACHE_TAG_REVIEWS] } })
   if (!response.ok) {
     throw new Error(`CMS returned ${response.status} for ${url}`)
   }
