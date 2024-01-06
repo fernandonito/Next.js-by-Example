@@ -34,11 +34,12 @@ export async function getReviews(pageSize, page) {
   return { pageCount: meta.pagination.pageCount, reviews: data.map(toReview) }
 }
 
-export async function getSearchableReviews() {
+export async function searchReviews(query) {
   const { data } = await fetchReviews({
+    filters: { title: { $containsi: query } },
     fields: ['slug', 'title'],
-    sort: ['publishedAt:desc'],
-    pagination: { pageSize: 100 },
+    sort: ['title'],
+    pagination: { pageSize: 5 },
   })
   return data.map(({ attributes: { slug, title } }) => ({
     slug,
