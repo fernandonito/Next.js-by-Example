@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import Heading from '@/components/Heading'
-import { getReviews, getSearchableReviews } from '@/lib/reviews'
+import { getReviews } from '@/lib/reviews'
 import PaginationBar from '@/components/PaginationBar'
 import SearchBox from '@/components/SearchBox'
 
