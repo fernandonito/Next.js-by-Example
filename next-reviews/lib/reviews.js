@@ -72,14 +72,13 @@ async function fetchReviews(parameters) {
   return await response.json()
 }
 
-function toReview({
-  attributes: { slug, title, subtitle, publishedAt, image },
-}) {
+function toReview(item) {
+  const { attributes } = item
   return {
-    slug,
-    title,
-    subtitle,
-    data: publishedAt.slice(0, 'yyyy-mm-dd'.length),
-    image: CMS_URL + image.data.attributes.url,
+    slug: attributes.slug,
+    title: attributes.title,
+    subtitle: attributes.subtitle,
+    date: attributes.publishedAt.slice(0, 'yyyy-mm-dd'.length),
+    image: new URL(attributes.image.data.attributes.url, CMS_URL).href,
   }
 }
