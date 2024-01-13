@@ -4,4 +4,3 @@
 /.next/
 /node_modules/
 /out/
-/prisma/*.db
