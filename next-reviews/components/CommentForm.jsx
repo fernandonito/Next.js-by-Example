@@ -4,11 +4,11 @@ import { useState } from 'react'
 import { createCommentAction } from '@/app/reviews/[slug]/actions'
 
 export default function CommentForm({ slug, title }) {
-  const [error, setError] = useState(null)
+  const [state, setState] = useState({ loading: false, error: null })
 
   const handleSubmit = async (event) => {
     event.preventDefault()
-    setError(null)
+    setState({ loading: true, error: null })
 
     const form = event.currentTarget
     const formData = new FormData(form)
@@ -16,9 +16,10 @@ export default function CommentForm({ slug, title }) {
     const result = await createCommentAction(formData)
 
     if (result?.isError) {
-      setError(result)
+      setState({ loading: false, error: result })
     } else {
       form.reset()
+      setState({ loading: false, error: null })
     }
   }
 
@@ -55,15 +56,17 @@ export default function CommentForm({ slug, title }) {
           maxLength={500}
         />
       </div>
-      {Boolean(error) && (
+      {Boolean(state.error) && (
         <p className="text-red-700">
-          {error?.message || 'Something went wrong'}
+          {state.error.message || 'Something went wrong'}
         </p>
       )}
       <button
         type="submit"
+        disabled={state.loading}
         className="bg-orange-800 rounded px-2 py-1 self-center
-                   text-slate-50 w-32 hover:bg-orange-700"
+        text-slate-50 w-32 hover:bg-orange-700 
+        disabled:bg-slate-500 disabled:cursor-not-allowed"
       >
         Submit
       </button>
