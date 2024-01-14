@@ -6,6 +6,9 @@ module.exports = {
   images: {
     remotePatterns: [toRemotePattern(process.env.CMS_IMAGE_PATTERN)],
   },
+  experimental: {
+    serverActions: true,
+  },
 }
 
 function toRemotePattern(urlString) {
