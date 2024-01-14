@@ -1,14 +1,25 @@
 'use client'
 
+import { useState } from 'react'
 import { createCommentAction } from '@/app/reviews/[slug]/actions'
 
 export default function CommentForm({ slug, title }) {
+  const [error, setError] = useState(null)
+
   const handleSubmit = async (event) => {
     event.preventDefault()
+    setError(null)
+
     const form = event.currentTarget
     const formData = new FormData(form)
+
     const result = await createCommentAction(formData)
-    console.log('[CommentForm] result', result)
+
+    if (result?.isError) {
+      setError(result)
+    } else {
+      form.reset()
+    }
   }
 
   return (
@@ -44,6 +55,11 @@ export default function CommentForm({ slug, title }) {
           maxLength={500}
         />
       </div>
+      {Boolean(error) && (
+        <p className="text-red-700">
+          {error?.message || 'Something went wrong'}
+        </p>
+      )}
       <button
         type="submit"
         className="bg-orange-800 rounded px-2 py-1 self-center
