@@ -3,9 +3,17 @@
 import { createCommentAction } from '@/app/reviews/[slug]/actions'
 
 export default function CommentForm({ slug, title }) {
+  const handleSubmit = async (event) => {
+    event.preventDefault()
+    const form = event.currentTarget
+    const formData = new FormData(form)
+    const result = await createCommentAction(formData)
+    console.log('[CommentForm] result', result)
+  }
+
   return (
     <form
-      action={createCommentAction}
+      onSubmit={handleSubmit}
       className="border bg-white flex flex-col gap-2 mt-3 px-3 py-3 rounded"
     >
       <p className="pb-1">
