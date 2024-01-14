@@ -2,11 +2,12 @@ import { Suspense } from 'react'
 import { ChatBubbleBottomCenterTextIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import { notFound } from 'next/navigation'
+import { getReview, getSlugs } from '@/lib/reviews'
 import CommentForm from '@/components/CommentForm'
 import CommentList from '@/components/CommentList'
 import Heading from '@/components/Heading'
 import ShareButtons from '@/components/ShareButtons'
-import { getReview, getSlugs } from '@/lib/reviews'
+import CommentListSkeleton from '@/components/CommentListSkeleton'
 
 export async function generateStaticParams() {
   const slugs = await getSlugs()
@@ -52,7 +53,7 @@ export default async function ReviewPage({ params: { slug } }) {
           Comments
         </h2>
         <CommentForm slug={slug} title={review.title} />
-        <Suspense fallback={<p>Loading...</p>}>
+        <Suspense fallback={<CommentListSkeleton />}>
           <CommentList slug={slug} />
         </Suspense>
       </section>
